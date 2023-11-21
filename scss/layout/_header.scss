@@ -1,0 +1,31 @@
+#head {
+  padding: 40px;
+  background-color: rgb(26, 24, 24);
+  .container {
+    .nav {
+      margin-left: 70px;
+      display: flex;
+      .ul {
+        display: flex;
+        gap: 45px;
+
+        li {
+          list-style-type: none;
+          transition: transform 0.5s;
+          &:hover {
+            transform: scale(1.25);
+          }
+          a {
+            font-size: 18px;
+            text-decoration: none;
+            font-weight: 500;
+            color: blueviolet;
+            &:hover {
+              color: blue;
+            }
+          }
+        }
+      }
+    }
+  }
+}

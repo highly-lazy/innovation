@@ -1,0 +1,32 @@
+#innovation {
+  background-color: rgb(237, 231, 231);
+  margin-top: 80px;
+  padding: 30px;
+  .container {
+    .wrapper {
+      display: flex;
+      gap: 50px;
+      border: 2px solid blueviolet;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .first {
+      display: flex;
+      flex-direction: column;
+      text-align: start;
+      gap: 30px;
+
+      p {
+        font-size: 20px;
+      }
+    }
+    .img {
+      margin-top: 20px;
+      img {
+        width: 500px;
+        height: 500px;
+        border-radius: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+#narx {
+  background-color: rgb(237, 231, 231);
+  padding: 40px;
+  margin-top: 60px;
+  .container {
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      p {
+        font-size: 20px;
+      }
+    }
+    .cards {
+      margin-top: 70px;
+      display: flex;
+      gap: 40px;
+      .card1 {
+        border: 3px solid blueviolet;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+        padding: 20px;
+        transition: transform 0.5s;
+        &:hover {
+          color: #fff;
+          background-color: #400880;
+          transform: scale(1.1);
+        }
+        p {
+          font-size: 20px;
+        }
+        img {
+          border: 2px solid white;
+          width: 350px;
+          border-radius: 12px;
+        }
+      }
+    }
+  }
+}

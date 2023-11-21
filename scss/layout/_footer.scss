@@ -1,0 +1,26 @@
+footer {
+  background-color: rgb(28, 27, 29);
+  margin-top: 200px;
+  width: 100%;
+  height: auto;
+
+  padding: 30px;
+  .container {
+    .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      h3 {
+        color: blueviolet;
+      }
+      h1 {
+        color: blueviolet;
+      }
+      a{
+        font-size: 20px;
+        text-decoration: none;
+        color: blueviolet;
+      }
+    }
+  }
+}

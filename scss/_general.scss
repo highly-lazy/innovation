@@ -1,0 +1,14 @@
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1240px;
+  padding: 20px;
+}
+

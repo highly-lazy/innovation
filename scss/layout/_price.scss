@@ -1,0 +1,32 @@
+#price {
+  margin-top: 70px;
+  .container {
+    .wrapper {
+      display: flex;
+      gap: 40px;
+    }
+    .first {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      p {
+        font-size: 20px;
+      }
+      .ul {
+        display: flex;
+        flex-direction: column;
+
+        li {
+          gap: 20px;
+          font-size: 18px;
+          font-weight: 700;
+        }
+      }
+    }
+    img {
+      width: 600px;
+      height: 700px;
+      border-radius: 12px;
+    }
+  }
+}
